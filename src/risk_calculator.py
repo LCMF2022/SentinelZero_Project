@@ -54,5 +54,3 @@ with open("risk_scores.csv", "w", newline="") as f:
 
 print("Risk scoring complete! Results saved to risk_scores.csv")
 
-Add risk_calculator prototype
-
