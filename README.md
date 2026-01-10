@@ -15,3 +15,16 @@ Contact: [Your Email or GitHub Profile]
 
 ## License
 Apache 2.0
+
+## Risk Calculator Prototype
+
+This Python script demonstrates a basic risk scoring for DeFi protocols
+based on historical exploit patterns.
+
+### Requirements
+- Python 3.8+
+- JSON and CSV (built-in)
+
+### How to run
+1. Navigate to the repository root
+2. Run:
