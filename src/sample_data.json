@@ -1,0 +1,29 @@
+[
+    {
+        "name": "The DAO",
+        "signals": {
+            "contract_logic": 2,
+            "oracle_economic": 0,
+            "governance_permission": 1,
+            "infrastructure_bridge": 0,
+            "monitoring_response": 0
+        },
+        "centralization": true,
+        "low_liquidity": false,
+        "no_monitoring": true
+    },
+    {
+        "name": "bZx",
+        "signals": {
+            "contract_logic": 1,
+            "oracle_economic": 2,
+            "governance_permission": 0,
+            "infrastructure_bridge": 0,
+            "monitoring_response": 0
+        },
+        "centralization": false,
+        "low_liquidity": true,
+        "no_monitoring": true
+    }
+]
+
