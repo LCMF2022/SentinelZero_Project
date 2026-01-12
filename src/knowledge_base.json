@@ -1,0 +1,25 @@
+{
+  "exploits_registry": [
+    {
+      "id": "SZ-001",
+      "project": "The DAO",
+      "attack_vector": "Reentrancy",
+      "risk_indicators": ["External call before state update", "High withdrawal frequency"],
+      "impact_severity": "Critical"
+    },
+    {
+      "id": "SZ-002",
+      "project": "Mango Markets",
+      "attack_vector": "Oracle Manipulation",
+      "risk_indicators": ["Low liquidity pool", "Sudden price spike", "Flash loan involvement"],
+      "impact_severity": "High"
+    },
+    {
+      "id": "SZ-003",
+      "project": "Beanstalk",
+      "attack_vector": "Governance Attack",
+      "risk_indicators": ["Flash loan used for voting", "Instant proposal execution"],
+      "impact_severity": "Critical"
+    }
+  ]
+}
