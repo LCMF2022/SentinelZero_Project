@@ -27,3 +27,54 @@
     }
 ]
 
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "Base de conhecimento de exploits históricos para o motor SentinelZero",
+    "last_updated": "2024"
+  },
+  "exploits_registry": [
+    {
+      "project": "The DAO",
+      "year": 2016,
+      "risk_indicators": ["Governance Risk"],
+      "lesson": "Falhas na lógica de votação e chamadas externas recursivas."
+    },
+    {
+      "project": "Mango Markets",
+      "year": 2022,
+      "risk_indicators": ["Oracle Dependency", "Low Liquidity"],
+      "lesson": "Manipulação de preço em pools de baixa liquidez para inflar colateral."
+    },
+    {
+      "project": "Beanstalk",
+      "year": 2022,
+      "risk_indicators": ["Governance Risk", "Flash loan involvement"],
+      "lesson": "Uso de empréstimos instantâneos para assumir controle de votos da DAO."
+    },
+    {
+      "project": "Poly Network",
+      "year": 2021,
+      "risk_indicators": ["Bridge Exposure"],
+      "lesson": "Vulnerabilidade na troca de mensagens entre diferentes redes (cross-chain)."
+    },
+    {
+      "project": "Euler Finance",
+      "year": 2023,
+      "risk_indicators": ["Oracle Dependency"],
+      "lesson": "Lógica de doação de colateral quebrada afetando o preço do oráculo interno."
+    },
+    {
+      "project": "Ronin Bridge",
+      "year": 2022,
+      "risk_indicators": ["Bridge Exposure"],
+      "lesson": "Comprometimento de chaves privadas de validadores da ponte."
+    },
+    {
+      "project": "Curve Finance",
+      "year": 2023,
+      "risk_indicators": ["Sharp TVL Drop"],
+      "lesson": "Vulnerabilidade de reentrância em versões específicas da linguagem Vyper."
+    }
+  ]
+}
