@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "description": "Base de conhecimento de exploits históricos para o motor SentinelZero",
+    "description": "Historical exploit knowledge base for SentinelZero risk engine",
     "last_updated": "2024"
   },
   "exploits_registry": [
@@ -9,43 +9,43 @@
       "project": "The DAO",
       "year": 2016,
       "risk_indicators": ["Governance Risk"],
-      "lesson": "Falhas na lógica de votação e chamadas externas recursivas."
+      "lesson": "Recursive external calls and voting logic flaws."
     },
     {
       "project": "Mango Markets",
       "year": 2022,
       "risk_indicators": ["Oracle Dependency", "Low Liquidity"],
-      "lesson": "Manipulação de preço em pools de baixa liquidez para inflar colateral."
+      "lesson": "Market manipulation in low liquidity pools to inflate collateral value."
     },
     {
       "project": "Beanstalk",
       "year": 2022,
       "risk_indicators": ["Governance Risk", "Flash loan involvement"],
-      "lesson": "Uso de empréstimos instantâneos para assumir controle de votos da DAO."
+      "lesson": "Flash loan-funded governance takeover for instant proposal execution."
     },
     {
       "project": "Poly Network",
       "year": 2021,
       "risk_indicators": ["Bridge Exposure"],
-      "lesson": "Vulnerabilidade na troca de mensagens entre diferentes redes (cross-chain)."
+      "lesson": "Cross-chain message verification vulnerability."
     },
     {
       "project": "Euler Finance",
       "year": 2023,
       "risk_indicators": ["Oracle Dependency"],
-      "lesson": "Lógica de doação de colateral quebrada afetando o preço do oráculo interno."
+      "lesson": "Broken collateral donation logic affecting internal pricing oracles."
     },
     {
       "project": "Ronin Bridge",
       "year": 2022,
       "risk_indicators": ["Bridge Exposure"],
-      "lesson": "Comprometimento de chaves privadas de validadores da ponte."
+      "lesson": "Validator private key compromise (social engineering/infrastructure)."
     },
     {
       "project": "Curve Finance",
       "year": 2023,
       "risk_indicators": ["Sharp TVL Drop"],
-      "lesson": "Vulnerabilidade de reentrância em versões específicas da linguagem Vyper."
+      "lesson": "Reentrancy vulnerability in specific Vyper compiler versions."
     }
   ]
 }
